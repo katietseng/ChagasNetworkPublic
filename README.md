@@ -45,17 +45,6 @@ renv::restore()
 Contains all datasets required to reproduce the analyses, particularly SourceData_public.RData.
 The data dictionary for SourceData_public.RData can also be found in this folder.
 
-
-
-
-Geospatial data required for host distribution mapping include an external shapefile (`MAMMALS.shp`) that is not distributed with this repository due to file size (>1 GB).
-
-This file can be downloaded from the **IUCN Red List Spatial Database**:
-
-https://www.iucnredlist.org/resources/spatial-data-download
-
-After download, place the shapefile in the working directory prior to running scripts that generate host distribution maps.
-
 ---
 
 ### 2. `scripts/`
